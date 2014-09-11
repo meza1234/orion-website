@@ -23,3 +23,34 @@ header.header {
   position: absolute;
   width: 100%;
 }
+
+.navbar-nav li {
+    height: 32px;
+    margin-top: 25px;
+    font-size:14px;
+    font-weight:bold;
+    color:#fff;
+    text-transform: uppercase;
+    margin: 25px 15px 0 15px; 
+}
+.navbar-nav li:last-child{
+    background:#3498db;
+    border:none;
+    margin-top:18px;
+}
+
+.navbar-default .navbar-nav li:last-child a:hover{
+    color:#fff;
+}
+
+.navbar-default .navbar-nav > li >a {
+    padding:0;
+    color:#fff;
+}
+.navbar-default .navbar-nav > li >a:hover{
+    color: #3498db;
+}
+a.navbar-brand {
+    margin-top: 20px;
+    margin-right:115px;
+}
