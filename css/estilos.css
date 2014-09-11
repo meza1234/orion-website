@@ -1,0 +1,25 @@
+* {
+  font-family: 'Monserrat', 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+a {
+  color: #fff;
+}
+li {
+  list-style: none;
+}
+.jumbotron {
+  height: 690px;
+  overflow: hidden;
+  padding: 0;
+  width: 100%;
+}
+.navbar-default {
+  background-color: rgba(255,255,255,0);
+  border: none;
+}
+header.header {
+  position: absolute;
+  width: 100%;
+}
